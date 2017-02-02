@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#EFEDE1" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="标题" 
+        android:textColor="#655C55"
+        android:paddingTop="10dp"
+        android:paddingLeft="5dip"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_alignLeft="@+id/textView2"
+         android:hint="标题"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+         android:paddingLeft="5dp"
+        android:paddingTop="3dp"
+        android:textColor="#6D452F"
+        android:paddingBottom="3dp"
+        android:background="#F7F5E9"
+        android:text=""
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:hint="写点什么吧..."
+        android:background="#F7F5E9"
+        android:textColor="#6D452F"
+        android:paddingLeft="5dp"
+        android:paddingTop="3dp"
+        android:ems="10"
+        android:gravity="top"
+        android:paddingRight="10dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/editText1"
+        android:text="内容"
+        android:textColor="#655C55"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+</RelativeLayout>

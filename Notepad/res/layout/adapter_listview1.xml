@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+	 android:background="@drawable/textview"
+    android:orientation="vertical"
+    android:layout_marginBottom="5dip"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dip"
+    android:paddingTop="5dp" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2015年1月23日 16:07"
+        android:layout_marginLeft="5dip"
+        android:textColor="#B4AEA0"
+        android:textSize="12sp" />
+    
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:background="#F0EEE2"
+        android:layout_height="1dip"/>
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dip"
+        android:text="标题"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#6D452F"
+        android:textSize="18sp" />
+
+    
+
+</LinearLayout>
